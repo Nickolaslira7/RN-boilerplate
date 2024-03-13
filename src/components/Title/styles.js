@@ -1,10 +1,11 @@
 import { StyleSheet } from "react-native";
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f0f0f7",
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "bold",
   },
 });
-
 export default styles;

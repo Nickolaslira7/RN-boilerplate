@@ -1,12 +1,13 @@
 import { View, Text } from "react-native";
 import React from "react";
 import styles from "./styles";
-import Title from "../../components/Title";
 
-export default function Home() {
+const Title = ({ title }) => {
   return (
     <View style={styles.container}>
-      <Title title="Home" />
+      <Text style={styles.title}>{title}</Text>
     </View>
   );
-}
+};
+
+export default Title;
